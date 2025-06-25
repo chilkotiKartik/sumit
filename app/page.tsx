@@ -78,10 +78,7 @@ export default function SumitManifesto() {
   }, [])
 
   // Live counters and countdown
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSupportCount((prev) => prev + Math.floor(Math.random() * 3))
-      setViewCount((prev) => prev + Math.floor(Math.random() * 5))
+ 
 
       // Update countdown
       setElectionCountdown((prev) => {
