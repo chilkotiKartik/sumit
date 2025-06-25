@@ -138,7 +138,7 @@ export default function SumitManifesto() {
       impact:
         "Better inclusion and opportunities for female students in house activities, 100% increase in female participation",
       timeline: "Implementation: Month 1-2, Full rollout by Month 3",
-      budget: "₹8,000 for initial setup, events, and ongoing programs",
+      budget: "Big for initial setup, events, and ongoing programs",
       priority: "HIGHEST",
       successMetrics: [
         "50% female participation in all events",
@@ -192,7 +192,7 @@ export default function SumitManifesto() {
       icon: <Clock className="w-6 h-6" />,
       impact: "10x faster content delivery, 95% quality improvement, zero missed deadlines",
       timeline: "Implementation: Month 1, Full system operational by Month 2",
-      budget: "₹6,000 for design tools, templates, and team training",
+      budget: "Big  for design tools, templates, and team training",
       priority: "CRITICAL",
       successMetrics: ["6-hour average turnaround", "100% deadline compliance", "95% client satisfaction"],
       testimonial: "This will solve our biggest operational headache! - Event Coordinator",
@@ -279,7 +279,7 @@ export default function SumitManifesto() {
       desc: "Successfully mentored 80+ juniors through BS program navigation, assignment help, and career guidance with personalized support plans",
       year: "2021-2024",
       impact: "95% of mentees reported improved academic performance and career clarity",
-      metrics: "80+ students helped, 500+ hours of mentoring, 4.9/5 satisfaction rating",
+      metrics: "100+ students helped, 500+ hours of mentoring, 4.9/5 satisfaction rating",
       category: "Mentorship",
       icon: <Users className="w-6 h-6" />,
       testimonials: 12,
@@ -378,7 +378,7 @@ export default function SumitManifesto() {
     {
       text: "The way he organized events and brought people together is remarkable. He's a natural leader who leads by example, not by authority. His Open Mic nights were the highlight of my college experience!",
       author: "Rahul Gupta",
-      role: "Peer, Corbett House",
+      role: "Corbett House",
       rating: 5,
       category: "Leadership",
       image: "/placeholder.svg?height=60&width=60",
@@ -418,7 +418,7 @@ export default function SumitManifesto() {
     {
       text: "The storytelling sessions he organized were amazing. It's rare to find someone who can bring people together like he does. His cultural events created memories that will last forever.",
       author: "Vikram Joshi",
-      role: "Alumni, 2021 Batch",
+      role: "Student, 2022 Batch",
       rating: 5,
       category: "Community Building",
       image: "/placeholder.svg?height=60&width=60",
@@ -529,41 +529,7 @@ export default function SumitManifesto() {
     },
   ]
 
-  const campaignMaterials = [
-    {
-      title: "Campaign Poster Collection",
-      desc: "High-quality posters for printing and sharing",
-      type: "PDF",
-      size: "15 MB",
-      downloads: 234,
-      icon: <FileText className="w-6 h-6" />,
-    },
-    {
-      title: "Social Media Kit",
-      desc: "Instagram stories, posts, and profile pictures",
-      type: "ZIP",
-      size: "8 MB",
-      downloads: 189,
-      icon: <ImageIcon className="w-6 h-6" />,
-    },
-    {
-      title: "Campaign Video",
-      desc: "2-minute campaign highlight video",
-      type: "MP4",
-      size: "45 MB",
-      downloads: 156,
-      icon: <Video className="w-6 h-6" />,
-    },
-    {
-      title: "Manifesto PDF",
-      desc: "Complete manifesto document",
-      type: "PDF",
-      size: "3 MB",
-      downloads: 312,
-      icon: <BookOpen className="w-6 h-6" />,
-    },
-  ]
-
+  
   const liveUpdates = [
     {
       time: "2 hours ago",
